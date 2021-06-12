@@ -1,0 +1,1 @@
+import './stop-mode/stop-worker.js';
