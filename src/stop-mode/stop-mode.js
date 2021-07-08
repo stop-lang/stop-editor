@@ -31,7 +31,7 @@ ace.define('ace/mode/stop-mode',["require","exports","module","ace/lib/oop","ace
                 { token : "paren.rparen", regex : "[\\])}]" },
                 { token : "text", regex : "\\s+" },
                 { token : "constant", regex : "[A-Z][A-Z]+\\b"  },
-                { token : "variable", regex : "[A-Z][a-zA-Z0-9_$]*\\b"  },
+                { token : "variable", regex : "@?[A-Z][a-zA-Z0-9_$]*\\b"  },
                 { token: keywordMapper, regex: "[a-zA-Z_$][a-zA-Z0-9_$]*\\b" }
                 
             ],
